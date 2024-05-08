@@ -1,0 +1,269 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body html {
+  width: 100%;
+  background-color: #fff9f3;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.wrapper .menu {
+  width: 100%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.menu .m_left a {
+  text-decoration: none;
+  color: #000;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41.45px;
+  font-family: Montserrat;
+}
+.menu .m_left a:hover {
+  color: #eb6d20;
+}
+.m_midle {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  background-color: #e9f3f2;
+  border-radius: 20px;
+  margin-left: 24px;
+  padding: 5px 10px;
+}
+.m_midle a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 12px;
+
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: #3e3e3e;
+  gap: 8px;
+}
+#search {
+  border: 0px;
+  width: 530px;
+  height: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.m_right {
+  display: flex;
+  align-items: center;
+}
+.m_right a {
+  margin-left: 19px;
+}
+.m_right button {
+  width: 88px;
+  height: 48px;
+  background: #eb6d20;
+  border-radius: 50px;
+  padding: 16px 30px 16px 30px;
+  margin-left: 24px;
+  border: none;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #fff;
+}
+.m_right button:hover {
+  background-color: chartreuse;
+}
+
+.menu ul {
+  display: inline-flex;
+}
+
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #3e3e3e;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li a:hover {
+  background: #b88e2f;
+  color: aqua;
+}
+.menu_b ul {
+  display: inline-flex;
+}
+.menu_b ul li {
+  list-style: none;
+}
+.menu_b ul li a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  /* border-radius: 5px; */
+  transition: all 0.3s ease;
+  display: flex;
+  margin-right: 48px;
+  align-items: center;
+  color: #3e3e3e;
+  margin-top: 28px;
+  margin-bottom: 30px;
+}
+.menu_b span {
+  color: #eb8426;
+}
+.menu_b ul li a:hover {
+  color: #eb8426;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #eb8426;
+}
+.main {
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+.box {
+  width: 424px;
+  height: 180px;
+  position: relative;
+  transition-duration: 1s;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.box:hover {
+  transform: scale(1.05, 1.05);
+}
+.box p {
+  position: absolute;
+  left: 16px;
+  top: 144px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+}
+.main_2 {
+  display: flex;
+  margin-top: 24px;
+  gap: 24px;
+}
+.block {
+  width: 312px;
+  height: 418px;
+  border-radius: 5px;
+  transition: all 0.3s ease 0s;
+}
+.block:hover {
+  transform: scale(1.05, 1.05);
+}
+.block img {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.block p {
+  width: 264px;
+  height: 56px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-top: 24px;
+  text-align: left;
+}
+.block span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  margin-left: 24px;
+}
+.block1 {
+  background: #d3fbd9;
+}
+.block2 {
+  background: #ffe4bd;
+}
+.block3 {
+  background: #d9abfd;
+}
+.block4 {
+  background: #fdf0ab;
+}
+.obekt {
+  display: flex;
+  margin-top: 48px;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+.pas {
+  display: flex;
+  align-items: center;
+  width: 424px;
+  height: 174px;
+  border-radius: 5px;
+  background: #f5f6f8;
+  transition: all 0.3s ease 0s;
+}
+.pas:hover {
+  transform: scale(1.05, 1.05);
+}
+.mal h4 {
+  width: 113px;
+  height: 40px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #0b0b0b;
+  margin-left: 24px;
+}
+.mal p {
+  width: 176px;
+  height: 32px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  margin-top: 12px;
+  margin-left: 24px;
+}
+.pas img {
+  margin-left: 74px;
+}
+.pas2 h4 {
+  width: 172px;
+  height: 40px;
+}
